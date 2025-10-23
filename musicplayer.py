@@ -5,20 +5,9 @@ import random
 import os
 from mutagen.mp3 import MP3
 pygame.mixer.init()
-path = [{"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Wokeupthismorning.mp3", "name": "Woke Up This Morning"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Olly_Murse_Feat._Rizzle_Kicks_-_Heart_Skips_A_Beat_(mp3.pm).mp3", "name": "My Heart Skips a Beat"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Michael Jackson - Thriller (Lyrics).mp3","name": "Thriller"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Dua Lipa - Levitating (Lyrics).mp3","name": "Levitating"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Hava Nagila Original.mp3","name":"Hava Nagila"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\John Denver - Take Me Home, Country Roads (Official Audio).mp3", "name": "Take me home, country roads"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Saad Lamjarred - LM3ALLEM (Exclusive Music Video)   (سعد لمجرد - لمعلم (فيديو كليب حصري.mp3", "name": "Lamallem"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Alan Jackson - Hard Hat And A Hammer (Official Music Video).mp3", "name": "Hard Hat and a Hammer"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Tatsuro_Yamashita_-_Someday_(mp3.pm).mp3","name":"Someday"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Red sun in the sky (club remix).mp3","name": "Red Sun in the Sky: Club Remix"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Team America - America, Fck Yeah! (Lyrics).mp3","name": "America F Yeah!"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Kenny Chesney - Get Along (Official Music Video).mp3","name": "Get Along"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Manhattan (Song Promo)  English Vinglish  Sridevi Best Song.mp3","name": "Manhattan"},
-        {"path": r"C:\Users\theof\OneDrive\Documents\Python Projects & Files\Music Player System\Tame Impala - Borderline (Official Audio).mp3", "name": "Borderline"}]
+#enter mp3 file paths here
+path = [{"path": r"/workspaces/music-player-system/Tame Impala - Borderline (Official Audio).mp3","name": "Borderline - Tame Impala"},
+        {"path": r"/workspaces/music-player-system/Dua Lipa - Levitating (Lyrics).mp3","name": "Levitating"}]
 
 running = False
 global_var = {"atTime": 0,"file_num": 0, "loop": True}
@@ -94,5 +83,3 @@ while True:
         thread.join()
         break
     
-
-
